@@ -1,5 +1,5 @@
-require 'mail', '~>2.7', '>=2.7.1' 
+require 'mail'
 
-group :development do
-  gem 'mail'
-end
+require 'bundler/setup'
+
+Bundler.require(:default, :development)
